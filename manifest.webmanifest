@@ -1,0 +1,17 @@
+{
+  "name": "Masaliya — Sihirli Maceralar Dünyası",
+  "short_name": "Masaliya",
+  "description": "Okudukça açılan sihirli bir macera oyunu.",
+  "lang": "tr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#2e2a6b",
+  "theme_color": "#2e2a6b",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
