@@ -1,6 +1,6 @@
 // Masaliya service worker (generated at build time)
-const CACHE = 'masaliya-e5f2b79d01';
-const PRECACHE = ["./","./index.html","./apple-touch-icon.png","./icon-512.png","./icon.svg","./manifest.webmanifest","./assets/andika-latin-400-normal-BTFTIZb-.woff2","./assets/andika-latin-ext-400-normal-D580Nkki.woff2","./assets/andika-latin-700-normal-Dk95f5lc.woff2","./assets/andika-latin-ext-700-normal-Ch3SGZaH.woff2","./assets/grandstander-latin-ext-600-normal-BLRGYHrl.woff2","./assets/grandstander-latin-ext-800-normal-DXxZD3HK.woff2","./assets/grandstander-latin-600-normal-DhUtGjFB.woff2","./assets/grandstander-latin-800-normal-C5RZ1tt5.woff2","./assets/index-C-2nC65i.css","./assets/index-BEsHQWer.js"];
+const CACHE = 'masaliya-032bdc7007';
+const PRECACHE = ["./","./index.html","./apple-touch-icon.png","./icon-512.png","./icon.svg","./manifest.webmanifest","./assets/andika-latin-ext-400-normal-D580Nkki.woff2","./assets/andika-latin-400-normal-BTFTIZb-.woff2","./assets/andika-latin-700-normal-Dk95f5lc.woff2","./assets/andika-latin-ext-700-normal-Ch3SGZaH.woff2","./assets/grandstander-latin-ext-600-normal-BLRGYHrl.woff2","./assets/grandstander-latin-600-normal-DhUtGjFB.woff2","./assets/grandstander-latin-ext-800-normal-DXxZD3HK.woff2","./assets/grandstander-latin-800-normal-C5RZ1tt5.woff2","./assets/index-D37k68f9.css","./assets/index-B-LBZSf5.js"];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(PRECACHE)).then(() => self.skipWaiting()));
